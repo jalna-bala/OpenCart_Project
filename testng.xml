@@ -4,7 +4,7 @@
 <listeners>
     <listener class-name="utilities.ExtentReportManager"/>
   </listeners>
-  <test thread-count="5" name="Test1">
+  <test thread-count="5" name="Test_chrome">
    <parameter name="browser" value="chrome"/>
     <parameter name="os" value="Windows 10"/> 
     <classes>
@@ -12,7 +12,7 @@
        <class name="testCases.TC002_LoginPage"/>
     </classes>
   </test> <!-- Test -->
-  <test thread-count="5" name="Test2">
+  <test thread-count="5" name="Test_edge">
    <parameter name="browser" value="edge"/>
     <parameter name="os" value="Windows 10"/> 
     <classes>
