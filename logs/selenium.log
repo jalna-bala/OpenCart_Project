@@ -3482,3 +3482,141 @@ java.net.SocketException: Connection reset
 2025-11-06 11:08:19 INFO  TC001_AccountRegistrationTest:76 - Navigated to URL: https://tutorialsninja.com/demo/
 2025-11-06 11:08:20 INFO  TC001_AccountRegistrationTest:27 - started the homepage
 2025-11-06 11:08:27 INFO  TC001_AccountRegistrationTest:36 - registration is also stratd
+2025-11-06 11:12:51 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\Balaji\Documents\Bala_selenium_project\testng.xml
+
+2025-11-06 11:12:51 INFO  TC001_AccountRegistrationTest:60 - Execution started on OS: Windows 10 | Browser: chrome
+2025-11-06 11:12:52 INFO  WebDriverManager:1220 - Using chromedriver 142.0.7444.59 (resolved driver for Chrome 142)
+2025-11-06 11:12:52 INFO  WebDriverManager:1282 - Exporting webdriver.chrome.driver as C:\Users\Balaji\.cache\selenium\chromedriver\win64\142.0.7444.59\chromedriver.exe
+2025-11-06 11:12:54 INFO  TC001_AccountRegistrationTest:67 - Chrome browser launched
+2025-11-06 11:12:59 INFO  TC001_AccountRegistrationTest:93 - Navigated to URL: https://tutorialsninja.com/demo/
+2025-11-06 11:12:59 INFO  TC001_AccountRegistrationTest:27 - started the homepage
+2025-11-06 11:13:12 ERROR TC001_AccountRegistrationTest:49 - Test failed due to exception: element not interactable
+  (Session info: chrome=142.0.7444.61)
+Build info: version: '4.9.1', revision: 'eb2032df7f'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [60c3a53c5385e250684047541f8dd5d4, clickElement {id=f.5D7781091E35942FE913D905E0F4C6EA.d.342300E0AD9247CB3E87118268ADBAE9.e.38}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.61, chrome: {chromedriverVersion: 142.0.7444.59 (4b8153ab58d3..., userDataDir: C:\Users\Balaji\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50630}, goog:processID: 12768, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50630/devtoo..., se:cdpVersion: 142.0.7444.61, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (60c3a53c5385e250684047541f8dd5d4)] -> xpath: //span[contains(text(),'My Account')]]
+Session ID: 60c3a53c5385e250684047541f8dd5d4
+2025-11-06 11:19:56 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\Balaji\Documents\Bala_selenium_project\testng.xml
+
+2025-11-06 11:19:56 INFO  TC001_AccountRegistrationTest:60 - Execution started on OS: Windows 10 | Browser: chrome
+2025-11-06 11:19:57 INFO  WebDriverManager:1220 - Using chromedriver 142.0.7444.59 (resolved driver for Chrome 142)
+2025-11-06 11:19:57 INFO  WebDriverManager:1282 - Exporting webdriver.chrome.driver as C:\Users\Balaji\.cache\selenium\chromedriver\win64\142.0.7444.59\chromedriver.exe
+2025-11-06 11:20:00 INFO  TC001_AccountRegistrationTest:67 - Chrome browser launched
+2025-11-06 11:20:08 INFO  TC001_AccountRegistrationTest:93 - Navigated to URL: https://tutorialsninja.com/demo/
+2025-11-06 11:20:08 INFO  TC001_AccountRegistrationTest:27 - started the homepage
+2025-11-06 11:20:20 ERROR TC001_AccountRegistrationTest:49 - Test failed due to exception: element not interactable
+  (Session info: chrome=142.0.7444.61)
+Build info: version: '4.9.1', revision: 'eb2032df7f'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [861a92699ed6601f3d94b6262223151b, clickElement {id=f.F3C7169670D149F920B546C81802EE97.d.8F3A31521AEE4896A37021FD653FD19B.e.38}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.61, chrome: {chromedriverVersion: 142.0.7444.59 (4b8153ab58d3..., userDataDir: C:\Users\Balaji\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50918}, goog:processID: 14756, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50918/devtoo..., se:cdpVersion: 142.0.7444.61, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (861a92699ed6601f3d94b6262223151b)] -> xpath: /html/body/nav/div/div[2]/ul/li[2]/a/span[1]]
+Session ID: 861a92699ed6601f3d94b6262223151b
+2025-11-06 11:22:53 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\Balaji\Documents\Bala_selenium_project\testng.xml
+
+2025-11-06 11:22:53 INFO  TC001_AccountRegistrationTest:60 - Execution started on OS: Windows 10 | Browser: chrome
+2025-11-06 11:22:59 INFO  WebDriverManager:1220 - Using chromedriver 142.0.7444.59 (resolved driver for Chrome 142)
+2025-11-06 11:22:59 INFO  WebDriverManager:1282 - Exporting webdriver.chrome.driver as C:\Users\Balaji\.cache\selenium\chromedriver\win64\142.0.7444.59\chromedriver.exe
+2025-11-06 11:23:02 INFO  TC001_AccountRegistrationTest:67 - Chrome browser launched
+2025-11-06 11:23:10 INFO  TC001_AccountRegistrationTest:93 - Navigated to URL: https://tutorialsninja.com/demo/
+2025-11-06 11:23:10 INFO  TC001_AccountRegistrationTest:27 - started the homepage
+2025-11-06 11:23:22 ERROR TC001_AccountRegistrationTest:49 - Test failed due to exception: element not interactable
+  (Session info: chrome=142.0.7444.61)
+Build info: version: '4.9.1', revision: 'eb2032df7f'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [fd1214f2feee51805cc9f3211ed64ac5, clickElement {id=f.42FD1F0A49FD8539749DCB410634E122.d.8F4C2DB692A0DD92A5CE88FE81917184.e.39}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.61, chrome: {chromedriverVersion: 142.0.7444.59 (4b8153ab58d3..., userDataDir: C:\Users\Balaji\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51080}, goog:processID: 11180, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51080/devtoo..., se:cdpVersion: 142.0.7444.61, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (fd1214f2feee51805cc9f3211ed64ac5)] -> xpath: //span[@class='hidden-xs hidden-sm hidden-md' and normalize-space(text())='My Account']]
+Session ID: fd1214f2feee51805cc9f3211ed64ac5
+2025-11-06 11:27:25 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\Balaji\Documents\Bala_selenium_project\testng.xml
+
+2025-11-06 11:27:25 INFO  TC001_AccountRegistrationTest:68 - Execution started on OS: Windows 10 | Browser: chrome
+2025-11-06 11:27:26 INFO  WebDriverManager:1220 - Using chromedriver 142.0.7444.59 (resolved driver for Chrome 142)
+2025-11-06 11:27:26 INFO  WebDriverManager:1282 - Exporting webdriver.chrome.driver as C:\Users\Balaji\.cache\selenium\chromedriver\win64\142.0.7444.59\chromedriver.exe
+2025-11-06 11:27:30 INFO  TC001_AccountRegistrationTest:75 - Chrome browser launched
+2025-11-06 11:27:36 INFO  TC001_AccountRegistrationTest:101 - Navigated to URL: https://tutorialsninja.com/demo/
+2025-11-06 11:27:36 INFO  TC001_AccountRegistrationTest:27 - started the homepage
+2025-11-06 11:27:49 ERROR TC001_AccountRegistrationTest:49 - Test failed due to exception: element not interactable
+  (Session info: chrome=142.0.7444.61)
+Build info: version: '4.9.1', revision: 'eb2032df7f'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [51355f74feea6ba6080298940d365de2, clickElement {id=f.568BED024152191AE33E1D32253907D5.d.B55B750674248148216F4EA8528A8AEB.e.38}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.61, chrome: {chromedriverVersion: 142.0.7444.59 (4b8153ab58d3..., userDataDir: C:\Users\Balaji\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51252}, goog:processID: 9724, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51252/devtoo..., se:cdpVersion: 142.0.7444.61, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (51355f74feea6ba6080298940d365de2)] -> xpath: //span[text()='My Account']]
+Session ID: 51355f74feea6ba6080298940d365de2
+2025-11-06 11:28:06 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\Balaji\Documents\Bala_selenium_project\master.xml
+
+2025-11-06 11:28:06 INFO  TC001_AccountRegistrationTest:68 - Execution started on OS: Windows 10 | Browser: chrome
+2025-11-06 11:28:07 INFO  WebDriverManager:1220 - Using chromedriver 142.0.7444.59 (resolved driver for Chrome 142)
+2025-11-06 11:28:07 INFO  WebDriverManager:1282 - Exporting webdriver.chrome.driver as C:\Users\Balaji\.cache\selenium\chromedriver\win64\142.0.7444.59\chromedriver.exe
+2025-11-06 11:28:10 INFO  TC001_AccountRegistrationTest:75 - Chrome browser launched
+2025-11-06 11:28:16 INFO  TC001_AccountRegistrationTest:101 - Navigated to URL: https://tutorialsninja.com/demo/
+2025-11-06 11:28:16 INFO  TC001_AccountRegistrationTest:27 - started the homepage
+2025-11-06 11:28:28 ERROR TC001_AccountRegistrationTest:49 - Test failed due to exception: element not interactable
+  (Session info: chrome=142.0.7444.61)
+Build info: version: '4.9.1', revision: 'eb2032df7f'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [011d98064775a0a11f944157997246cf, clickElement {id=f.1675F1F13C9D79C9A7F6D155758E4C9B.d.48EF263552856B2600AC8968E7DF43F3.e.38}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.61, chrome: {chromedriverVersion: 142.0.7444.59 (4b8153ab58d3..., userDataDir: C:\Users\Balaji\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51297}, goog:processID: 7804, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51297/devtoo..., se:cdpVersion: 142.0.7444.61, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (011d98064775a0a11f944157997246cf)] -> xpath: //span[text()='My Account']]
+Session ID: 011d98064775a0a11f944157997246cf
+2025-11-06 11:28:28 INFO  TC002_LoginPage:68 - Execution started on OS: Windows 10 | Browser: chrome
+2025-11-06 11:28:28 INFO  WebDriverManager:1220 - Using chromedriver 142.0.7444.59 (resolved driver for Chrome 142)
+2025-11-06 11:28:28 INFO  WebDriverManager:1282 - Exporting webdriver.chrome.driver as C:\Users\Balaji\.cache\selenium\chromedriver\win64\142.0.7444.59\chromedriver.exe
+2025-11-06 11:28:31 INFO  TC002_LoginPage:75 - Chrome browser launched
+2025-11-06 11:28:41 INFO  TC002_LoginPage:101 - Navigated to URL: https://tutorialsninja.com/demo/
+2025-11-06 11:28:41 INFO  TC002_LoginPage:15 - Test case started
+2025-11-06 11:28:51 ERROR TC002_LoginPage:31 - Test failed due to exception: element not interactable
+  (Session info: chrome=142.0.7444.61)
+Build info: version: '4.9.1', revision: 'eb2032df7f'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [1a09785a3d073e6d4f1bb07c5321b4ff, clickElement {id=f.6E55A8898AD433A0745F93439C48510C.d.72F55398E4F896625DE43482427BE783.e.38}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.61, chrome: {chromedriverVersion: 142.0.7444.59 (4b8153ab58d3..., userDataDir: C:\Users\Balaji\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51337}, goog:processID: 15392, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51337/devtoo..., se:cdpVersion: 142.0.7444.61, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (1a09785a3d073e6d4f1bb07c5321b4ff)] -> xpath: //span[text()='My Account']]
+Session ID: 1a09785a3d073e6d4f1bb07c5321b4ff
+2025-11-06 11:28:54 INFO  TC001_AccountRegistrationTest:68 - Execution started on OS: Windows 10 | Browser: edge
+2025-11-06 11:29:26 INFO  TC001_AccountRegistrationTest:87 - Edge browser launched
+2025-11-06 11:29:32 INFO  TC001_AccountRegistrationTest:101 - Navigated to URL: https://tutorialsninja.com/demo/
+2025-11-06 11:29:32 INFO  TC001_AccountRegistrationTest:27 - started the homepage
+2025-11-06 11:29:40 INFO  TC001_AccountRegistrationTest:36 - registration is also stratd
+2025-11-06 11:29:45 INFO  TC002_LoginPage:68 - Execution started on OS: Windows 10 | Browser: edge
+2025-11-06 11:29:54 INFO  TC002_LoginPage:87 - Edge browser launched
+2025-11-06 11:30:26 INFO  TC002_LoginPage:101 - Navigated to URL: https://tutorialsninja.com/demo/
+2025-11-06 11:30:26 INFO  TC002_LoginPage:15 - Test case started
+2025-11-06 11:30:34 INFO  TC002_LoginPage:21 - Login page opened successfully
+2025-11-06 11:30:37 INFO  TC002_LoginPage:28 - Test case passed
+2025-11-06 11:30:46 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\Balaji\Documents\Bala_selenium_project\testng.xml
+
+2025-11-06 11:30:46 INFO  TC001_AccountRegistrationTest:43 - Execution started on OS: Windows 10 | Browser: chrome
+2025-11-06 11:30:47 INFO  WebDriverManager:1220 - Using chromedriver 142.0.7444.59 (resolved driver for Chrome 142)
+2025-11-06 11:30:47 INFO  WebDriverManager:1282 - Exporting webdriver.chrome.driver as C:\Users\Balaji\.cache\selenium\chromedriver\win64\142.0.7444.59\chromedriver.exe
+2025-11-06 11:31:07 INFO  TC001_AccountRegistrationTest:50 - Chrome browser launched
+2025-11-06 11:31:39 INFO  TC001_AccountRegistrationTest:76 - Navigated to URL: https://tutorialsninja.com/demo/
+2025-11-06 11:31:39 INFO  TC001_AccountRegistrationTest:27 - started the homepage
+2025-11-06 11:31:49 INFO  TC001_AccountRegistrationTest:36 - registration is also stratd
+2025-11-06 11:31:52 INFO  TC001_AccountRegistrationTest:115 - Browser closed successfully.
+2025-11-06 11:32:37 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\Balaji\Documents\Bala_selenium_project\testng.xml
+
+2025-11-06 11:32:38 INFO  TC001_AccountRegistrationTest:43 - Execution started on OS: Windows 10 | Browser: chrome
+2025-11-06 11:32:39 INFO  WebDriverManager:1220 - Using chromedriver 142.0.7444.59 (resolved driver for Chrome 142)
+2025-11-06 11:32:39 INFO  WebDriverManager:1282 - Exporting webdriver.chrome.driver as C:\Users\Balaji\.cache\selenium\chromedriver\win64\142.0.7444.59\chromedriver.exe
+2025-11-06 11:32:48 INFO  TC001_AccountRegistrationTest:50 - Chrome browser launched
+2025-11-06 11:32:53 INFO  TC001_AccountRegistrationTest:76 - Navigated to URL: https://tutorialsninja.com/demo/
+2025-11-06 11:32:53 INFO  TC001_AccountRegistrationTest:27 - started the homepage
+2025-11-06 11:33:01 INFO  TC001_AccountRegistrationTest:36 - registration is also stratd
+2025-11-06 11:33:04 INFO  TC001_AccountRegistrationTest:115 - Browser closed successfully.
