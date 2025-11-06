@@ -28,8 +28,11 @@ public class TC001_AccountRegistrationTest extends BaseClass {
 		try {
 			
 		HomePage hp=new HomePage(driver);
+		Thread.sleep(2000);
 		hp.clickmyaccount();
+		Thread.sleep(2000);
 		hp.clickRegister();
+		Thread.sleep(2000);
 		logger.info("registration is also stratd");
 		AccountRegistrationPage ar= new AccountRegistrationPage(driver);
 		ar.setname(randomCharacter());
