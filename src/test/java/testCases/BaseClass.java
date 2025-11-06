@@ -94,19 +94,51 @@ public class BaseClass {
         return RandomStringUtils.randomAlphabetic(5) + "@" + RandomStringUtils.randomNumeric(5);
     }
 
-    // ✅ Screenshot capture utility
-    public String captureScreen(String testName) throws IOException {
-        String timeStamp = new SimpleDateFormat("yyyyMMddhhmmss").format(new Date());
-        TakesScreenshot takesScreenshot = (TakesScreenshot) driver;
-        File sourceFile = takesScreenshot.getScreenshotAs(OutputType.FILE);
+//    // ✅ Screenshot capture utility
+//    public String captureScreen(String testName) throws IOException {
+//        String timeStamp = new SimpleDateFormat("yyyyMMddhhmmss").format(new Date());
+//        TakesScreenshot takesScreenshot = (TakesScreenshot) driver;
+//        File sourceFile = takesScreenshot.getScreenshotAs(OutputType.FILE);
+//
+//        String targetFilePath = System.getProperty("user.dir") + "\\screenshots\\" + testName + "_" + timeStamp + ".png";
+//        File targetFile = new File(targetFilePath);
+//        sourceFile.renameTo(targetFile);
+//
+//        logger.info("Screenshot captured: " + targetFilePath);
+//        return targetFilePath;
+//    }
+    
+    
+    
+    public String captureScreen(String testName) {
+        String timeStamp = new SimpleDateFormat("yyyyMMddHHmmss").format(new Date());
+        String screenshotDir = System.getProperty("user.dir") + "\\screenshots\\";
+        new File(screenshotDir).mkdirs();
+        String targetFilePath = screenshotDir + testName + "_" + timeStamp + ".png";
 
-        String targetFilePath = System.getProperty("user.dir") + "\\screenshots\\" + testName + "_" + timeStamp + ".png";
-        File targetFile = new File(targetFilePath);
-        sourceFile.renameTo(targetFile);
+        try {
+            if (driver == null) {
+                System.err.println("❌ Cannot take screenshot — WebDriver is null.");
+                return targetFilePath;
+            }
 
-        logger.info("Screenshot captured: " + targetFilePath);
+            if (driver instanceof TakesScreenshot) {
+                File src = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
+                File dest = new File(targetFilePath);
+                org.apache.commons.io.FileUtils.copyFile(src, dest);
+                System.out.println("✅ Screenshot saved at: " + targetFilePath);
+            } else {
+                System.err.println("⚠️ This driver does not support screenshots: " + driver.getClass().getName());
+            }
+
+        } catch (Exception e) {
+            System.err.println("❌ Screenshot capture failed: " + e.getMessage());
+            e.printStackTrace();
+        }
+
         return targetFilePath;
     }
+
 
     @AfterClass(groups = { "sanity", "smoke" })
     public void tearDown() {
