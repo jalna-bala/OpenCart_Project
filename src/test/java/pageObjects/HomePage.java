@@ -27,7 +27,7 @@ public class HomePage extends BasePage {
     WebElement login;
 
     // ✅ Jenkins-safe click using JS + Wait
-    public void clickmyaccount() {
+    public void clickMyAccount() {
         try {
             WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
             wait.until(ExpectedConditions.elementToBeClickable(myaccount));
