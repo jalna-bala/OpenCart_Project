@@ -95,18 +95,18 @@ public class BaseClass {
     }
 
     // ✅ Screenshot capture utility
-    public String captureScreen(String testName) throws IOException {
-        String timeStamp = new SimpleDateFormat("yyyyMMddhhmmss").format(new Date());
-        TakesScreenshot takesScreenshot = (TakesScreenshot) driver;
-        File sourceFile = takesScreenshot.getScreenshotAs(OutputType.FILE);
-
-        String targetFilePath = System.getProperty("user.dir") + "\\screenshots\\" + testName + "_" + timeStamp + ".png";
-        File targetFile = new File(targetFilePath);
-        sourceFile.renameTo(targetFile);
-
-        logger.info("Screenshot captured: " + targetFilePath);
-        return targetFilePath;
-    }
+//    public String captureScreen(String testName) throws IOException {
+//        String timeStamp = new SimpleDateFormat("yyyyMMddhhmmss").format(new Date());
+//        TakesScreenshot takesScreenshot = (TakesScreenshot) driver;
+//        File sourceFile = takesScreenshot.getScreenshotAs(OutputType.FILE);
+//
+//        String targetFilePath = System.getProperty("user.dir") + "\\screenshots\\" + testName + "_" + timeStamp + ".png";
+//        File targetFile = new File(targetFilePath);
+//        sourceFile.renameTo(targetFile);
+//
+//        logger.info("Screenshot captured: " + targetFilePath);
+//        return targetFilePath;
+//    }
 
     @AfterClass(groups = { "sanity", "smoke" })
     public void tearDown() {
