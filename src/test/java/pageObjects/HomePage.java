@@ -17,8 +17,9 @@ public class HomePage extends BasePage {
         this.driver = driver;
     }
 
+    // ✅ Updated and stable XPaths
     @FindBy(xpath = "//span[normalize-space()='My Account']")
-    WebElement myaccount;
+    WebElement myAccount;
 
     @FindBy(xpath = "//a[normalize-space()='Register']")
     WebElement register;
@@ -30,11 +31,9 @@ public class HomePage extends BasePage {
     public void clickMyAccount() {
         try {
             WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-            wait.until(ExpectedConditions.elementToBeClickable(myaccount));
-
-            ((JavascriptExecutor) driver).executeScript("arguments[0].click();", myaccount);
+            wait.until(ExpectedConditions.elementToBeClickable(myAccount));
+            ((JavascriptExecutor) driver).executeScript("arguments[0].click();", myAccount);
             System.out.println("✅ Clicked on My Account successfully.");
-
         } catch (Exception e) {
             System.err.println("❌ Failed to click on My Account: " + e.getMessage());
         }
@@ -44,7 +43,6 @@ public class HomePage extends BasePage {
         try {
             WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
             wait.until(ExpectedConditions.elementToBeClickable(register));
-
             ((JavascriptExecutor) driver).executeScript("arguments[0].click();", register);
             System.out.println("✅ Clicked on Register successfully.");
         } catch (Exception e) {
@@ -52,20 +50,19 @@ public class HomePage extends BasePage {
         }
     }
 
-    public void clicklogin() {
-        try {
-            WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-            wait.until(ExpectedConditions.elementToBeClickable(login));
+ 
 
-            ((JavascriptExecutor) driver).executeScript("arguments[0].click();", login);
-            System.out.println("✅ Clicked on Login successfully.");
-        } catch (Exception e) {
-            System.err.println("❌ Failed to click on Login: " + e.getMessage());
-        }
-    }
+	public void clickLogin() {
+		 try {
+	            WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+	            wait.until(ExpectedConditions.elementToBeClickable(login));
+	            ((JavascriptExecutor) driver).executeScript("arguments[0].click();", login);
+	            System.out.println("✅ Clicked on Login successfully.");
+	        } catch (Exception e) {
+	            System.err.println("❌ Failed to click on Login: " + e.getMessage());
+	        }
+	    }
 }
-
-
 
 
 
