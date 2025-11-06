@@ -34,8 +34,10 @@ public class BaseClass {
     public void setup(String os, String br) throws IOException, InterruptedException {
 
         // ✅ Load configuration file
-        FileReader file = new FileReader("C://Users//Balaji//Documents//Bala_selenium_project//src//test//resources//config.properties");
-        p = new Properties();
+       // FileReader file = new FileReader("C://Users//Balaji//Documents//Bala_selenium_project//src//test//resources//config.properties");
+        FileReader file = new FileReader(System.getProperty("user.dir") + "/src/test/resources/config.properties");
+
+        p = new Properties(); 			
         p.load(file);
 
         logger = LogManager.getLogger(this.getClass());
@@ -94,17 +96,52 @@ public class BaseClass {
         return RandomStringUtils.randomAlphabetic(5) + "@" + RandomStringUtils.randomNumeric(5);
     }
 
-    // ✅ Screenshot capture utility
-    public String captureScreen(String testName) throws IOException {
-        String timeStamp = new SimpleDateFormat("yyyyMMddhhmmss").format(new Date());
-        TakesScreenshot takesScreenshot = (TakesScreenshot) driver;
-        File sourceFile = takesScreenshot.getScreenshotAs(OutputType.FILE);
+//    // ✅ Screenshot capture utility
+//    public String captureScreen(String testName) throws IOException {
+//        String timeStamp = new SimpleDateFormat("yyyyMMddhhmmss").format(new Date());
+//        TakesScreenshot takesScreenshot = (TakesScreenshot) driver;
+//        File sourceFile = takesScreenshot.getScreenshotAs(OutputType.FILE);
+//
+//        String targetFilePath = System.getProperty("user.dir") + "\\screenshots\\" + testName + "_" + timeStamp + ".png";
+//        File targetFile = new File(targetFilePath);
+//        sourceFile.renameTo(targetFile);
+//
+//        logger.info("Screenshot captured: " + targetFilePath);
+//        return targetFilePath;
+//    }
 
-        String targetFilePath = System.getProperty("user.dir") + "\\screenshots\\" + testName + "_" + timeStamp + ".png";
-        File targetFile = new File(targetFilePath);
-        sourceFile.renameTo(targetFile);
+    
+    
+    
+    
+    
+    
+    public String captureScreen(String testName) {
+        String timeStamp = new SimpleDateFormat("yyyyMMddHHmmss").format(new Date());
+        String screenshotDir = System.getProperty("user.dir") + "\\screenshots\\";
+        new File(screenshotDir).mkdirs();
+        String targetFilePath = screenshotDir + testName + "_" + timeStamp + ".png";
 
-        logger.info("Screenshot captured: " + targetFilePath);
+        try {
+            if (driver == null) {
+                System.err.println("❌ Cannot take screenshot — WebDriver is null.");
+                return targetFilePath;
+            }
+
+            if (driver instanceof TakesScreenshot) {
+                File src = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
+                File dest = new File(targetFilePath);
+                org.apache.commons.io.FileUtils.copyFile(src, dest);
+                System.out.println("✅ Screenshot saved at: " + targetFilePath);
+            } else {
+                System.err.println("⚠️ This driver does not support screenshots: " + driver.getClass().getName());
+            }
+
+        } catch (Exception e) {
+            System.err.println("❌ Screenshot capture failed: " + e.getMessage());
+            e.printStackTrace();
+        }
+
         return targetFilePath;
     }
 

@@ -190,22 +190,22 @@
   &lt;listeners&gt;
     &lt;listener class-name=&quot;utilities.ExtentReportManager&quot;/&gt;
   &lt;/listeners&gt;
-  &lt;test thread-count=&quot;5&quot; name=&quot;Test1&quot; verbose=&quot;0&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test_chrome&quot; verbose=&quot;0&quot;&gt;
     &lt;parameter name=&quot;os&quot; value=&quot;Windows 10&quot;/&gt;
     &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
     &lt;classes&gt;
       &lt;class name=&quot;testCases.TC001_AccountRegistrationTest&quot;/&gt;
       &lt;class name=&quot;testCases.TC002_LoginPage&quot;/&gt;
     &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- Test1 --&gt;
-  &lt;test thread-count=&quot;5&quot; name=&quot;Test2&quot; verbose=&quot;0&quot;&gt;
+  &lt;/test&gt; &lt;!-- Test_chrome --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test_edge&quot; verbose=&quot;0&quot;&gt;
     &lt;parameter name=&quot;os&quot; value=&quot;Windows 10&quot;/&gt;
     &lt;parameter name=&quot;browser&quot; value=&quot;edge&quot;/&gt;
     &lt;classes&gt;
       &lt;class name=&quot;testCases.TC001_AccountRegistrationTest&quot;/&gt;
       &lt;class name=&quot;testCases.TC002_LoginPage&quot;/&gt;
     &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- Test2 --&gt;
+  &lt;/test&gt; &lt;!-- Test_edge --&gt;
 &lt;/suite&gt; &lt;!-- Suite --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -217,10 +217,10 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Test1 (2 classes)</span>
+                <span class="test-name">Test_chrome (2 classes)</span>
               </li>
               <li>
-                <span class="test-name">Test2 (2 classes)</span>
+                <span class="test-name">Test_edge (2 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -264,26 +264,26 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(4);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'verifications')
-data.setCell(0, 2, 'testCases.TC002_LoginPage')
-data.setCell(0, 3, 5674);
+data.setCell(0, 1, 'verification')
+data.setCell(0, 2, 'testCases.TC001_AccountRegistrationTest')
+data.setCell(0, 3, 12081);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'verification')
 data.setCell(1, 2, 'testCases.TC001_AccountRegistrationTest')
-data.setCell(1, 3, 4325);
+data.setCell(1, 3, 10780);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'verification')
-data.setCell(2, 2, 'testCases.TC001_AccountRegistrationTest')
-data.setCell(2, 3, 3822);
+data.setCell(2, 1, 'verifications')
+data.setCell(2, 2, 'testCases.TC002_LoginPage')
+data.setCell(2, 3, 5834);
 data.setCell(3, 0, 3)
 data.setCell(3, 1, 'verifications')
 data.setCell(3, 2, 'testCases.TC002_LoginPage')
-data.setCell(3, 3, 2290);
+data.setCell(3, 3, 3315);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 16 seconds</span>
+              <span class="suite-total-time">Total running time: 32 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -316,56 +316,56 @@ return data;
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">verification</span>
-                <span class="method-start">13487 ms</span>
+                <span class="method-start">15823 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">17451 ms</span>
+                <span class="method-start">26622 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testCases.TC002_LoginPage</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setup(Windows 10, chrome)</span>
-                <span class="method-start">17789 ms</span>
+                <span class="method-start">27499 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">verifications</span>
-                <span class="method-start">28147 ms</span>
+                <span class="method-start">36407 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">30439 ms</span>
+                <span class="method-start">42242 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testCases.TC001_AccountRegistrationTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setup(Windows 10, edge)</span>
-                <span class="method-start">34101 ms</span>
+                <span class="method-start">45261 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">verification</span>
-                <span class="method-start">48347 ms</span>
+                <span class="method-start">64685 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">52674 ms</span>
+                <span class="method-start">76770 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testCases.TC002_LoginPage</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setup(Windows 10, edge)</span>
-                <span class="method-start">53470 ms</span>
+                <span class="method-start">77870 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">verifications</span>
-                <span class="method-start">62692 ms</span>
+                <span class="method-start">92138 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">68367 ms</span>
+                <span class="method-start">95455 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
