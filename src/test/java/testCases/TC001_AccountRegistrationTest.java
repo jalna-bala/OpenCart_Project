@@ -29,7 +29,7 @@ public class TC001_AccountRegistrationTest extends BaseClass {
 			
 		HomePage hp=new HomePage(driver);
 		Thread.sleep(2000);
-		hp.clickmyaccount();
+		hp.clickMyAccount();
 		Thread.sleep(2000);
 		hp.clickRegister();
 		Thread.sleep(2000);
