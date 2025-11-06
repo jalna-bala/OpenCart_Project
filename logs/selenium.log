@@ -3620,3 +3620,20 @@ Session ID: 1a09785a3d073e6d4f1bb07c5321b4ff
 2025-11-06 11:32:53 INFO  TC001_AccountRegistrationTest:27 - started the homepage
 2025-11-06 11:33:01 INFO  TC001_AccountRegistrationTest:36 - registration is also stratd
 2025-11-06 11:33:04 INFO  TC001_AccountRegistrationTest:115 - Browser closed successfully.
+2025-11-06 11:40:36 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\Balaji\Documents\Bala_selenium_project\testng.xml
+
+2025-11-06 11:40:36 INFO  TC001_AccountRegistrationTest:43 - Execution started on OS: Windows 10 | Browser: chrome
+2025-11-06 11:40:37 INFO  WebDriverManager:1220 - Using chromedriver 142.0.7444.59 (resolved driver for Chrome 142)
+2025-11-06 11:40:37 INFO  WebDriverManager:1282 - Exporting webdriver.chrome.driver as C:\Users\Balaji\.cache\selenium\chromedriver\win64\142.0.7444.59\chromedriver.exe
+2025-11-06 11:40:39 INFO  TC001_AccountRegistrationTest:50 - Chrome browser launched
+2025-11-06 11:40:45 INFO  TC001_AccountRegistrationTest:76 - Navigated to URL: https://tutorialsninja.com/demo/
+2025-11-06 11:40:45 INFO  TC001_AccountRegistrationTest:27 - started the homepage
+2025-11-06 11:40:53 INFO  TC001_AccountRegistrationTest:36 - registration is also stratd
+2025-11-06 11:40:57 INFO  TC001_AccountRegistrationTest:115 - Browser closed successfully.
+2025-11-06 11:40:59 INFO  TC001_AccountRegistrationTest:43 - Execution started on OS: Windows 10 | Browser: edge
+2025-11-06 11:41:01 INFO  TC001_AccountRegistrationTest:62 - Edge browser launched
+2025-11-06 11:41:06 INFO  TC001_AccountRegistrationTest:76 - Navigated to URL: https://tutorialsninja.com/demo/
+2025-11-06 11:41:06 INFO  TC001_AccountRegistrationTest:27 - started the homepage
+2025-11-06 11:41:14 INFO  TC001_AccountRegistrationTest:36 - registration is also stratd
+2025-11-06 11:41:17 INFO  TC001_AccountRegistrationTest:115 - Browser closed successfully.

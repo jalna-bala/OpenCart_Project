@@ -12,4 +12,12 @@
     
     </classes>
   </test> <!-- Test -->
+  <test thread-count="5" name="edge_test">
+   <parameter name="browser" value="edge"/>
+    <parameter name="os" value="Windows 10"/> 
+    <classes>
+      <class name="testCases.TC001_AccountRegistrationTest"/>
+    
+    </classes>
+  </test> <!-- Test -->
 </suite> <!-- Suite -->
