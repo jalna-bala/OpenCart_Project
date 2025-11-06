@@ -3472,3 +3472,13 @@ java.net.SocketException: Connection reset
 2025-11-06 11:02:47 INFO  TC001_AccountRegistrationTest:27 - started the homepage
 2025-11-06 11:02:54 INFO  TC001_AccountRegistrationTest:36 - registration is also stratd
 2025-11-06 11:02:57 INFO  TC001_AccountRegistrationTest:147 - Browser closed successfully.
+2025-11-06 11:08:07 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\Balaji\Documents\Bala_selenium_project\testng.xml
+
+2025-11-06 11:08:08 INFO  TC001_AccountRegistrationTest:43 - Execution started on OS: Windows 10 | Browser: chrome
+2025-11-06 11:08:08 INFO  WebDriverManager:1220 - Using chromedriver 142.0.7444.59 (resolved driver for Chrome 142)
+2025-11-06 11:08:08 INFO  WebDriverManager:1282 - Exporting webdriver.chrome.driver as C:\Users\Balaji\.cache\selenium\chromedriver\win64\142.0.7444.59\chromedriver.exe
+2025-11-06 11:08:11 INFO  TC001_AccountRegistrationTest:50 - Chrome browser launched
+2025-11-06 11:08:19 INFO  TC001_AccountRegistrationTest:76 - Navigated to URL: https://tutorialsninja.com/demo/
+2025-11-06 11:08:20 INFO  TC001_AccountRegistrationTest:27 - started the homepage
+2025-11-06 11:08:27 INFO  TC001_AccountRegistrationTest:36 - registration is also stratd

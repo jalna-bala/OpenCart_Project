@@ -140,11 +140,5 @@ public class BaseClass {
     }
 
 
-    @AfterClass(groups = { "sanity", "smoke" })
-    public void tearDown() {
-       
-          //  driver.quit();
-            logger.info("Browser closed successfully.");
-        
-    }
+  
 }
