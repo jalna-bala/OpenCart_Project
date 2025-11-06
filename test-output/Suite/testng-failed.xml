@@ -8,16 +8,11 @@
     <parameter name="os" value="Windows 10"/>
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="testCases.TC002_LoginPage">
-        <methods>
-          <include name="setup"/>
-          <include name="verifications"/>
-        </methods>
-      </class> <!-- testCases.TC002_LoginPage -->
       <class name="testCases.TC001_AccountRegistrationTest">
         <methods>
           <include name="setup"/>
           <include name="verification"/>
+          <include name="tearDown"/>
         </methods>
       </class> <!-- testCases.TC001_AccountRegistrationTest -->
     </classes>
