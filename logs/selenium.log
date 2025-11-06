@@ -3228,3 +3228,170 @@ java.net.SocketException: Connection reset
 2025-11-06 10:21:42 INFO  TC002_LoginPage:21 - Login page opened successfully
 2025-11-06 10:21:43 INFO  TC002_LoginPage:28 - Test case passed
 2025-11-06 10:21:44 INFO  TC002_LoginPage:115 - Browser closed successfully.
+2025-11-06 10:31:16 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\Balaji\Documents\Bala_selenium_project\testng.xml
+
+2025-11-06 10:31:17 INFO  TC002_LoginPage:61 - Execution started on OS: Windows 10 | Browser: chrome
+2025-11-06 10:31:18 INFO  WebDriverManager:1220 - Using chromedriver 142.0.7444.59 (resolved driver for Chrome 142)
+2025-11-06 10:31:18 INFO  WebDriverManager:1282 - Exporting webdriver.chrome.driver as C:\Users\Balaji\.cache\selenium\chromedriver\win64\142.0.7444.59\chromedriver.exe
+2025-11-06 10:31:20 INFO  TC002_LoginPage:68 - Chrome browser launched
+2025-11-06 10:31:27 INFO  TC002_LoginPage:94 - Navigated to URL: https://tutorialsninja.com/demo/
+2025-11-06 10:31:27 INFO  TC002_LoginPage:15 - Test case started
+2025-11-06 10:31:37 ERROR TC002_LoginPage:31 - Test failed due to exception: element not interactable
+  (Session info: chrome=142.0.7444.61)
+Build info: version: '4.9.1', revision: 'eb2032df7f'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [656c0ae2336d1f7b66dde6a6cae052c8, clickElement {id=f.D04848CA13C42CF568592A9551492910.d.BC2C03EEEEF02E1FAFEF84CEE4AE08D6.e.38}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.61, chrome: {chromedriverVersion: 142.0.7444.59 (4b8153ab58d3..., userDataDir: C:\Users\Balaji\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49387}, goog:processID: 12012, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49387/devtoo..., se:cdpVersion: 142.0.7444.61, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (656c0ae2336d1f7b66dde6a6cae052c8)] -> xpath: //span[contains(text(),'My Account')]]
+Session ID: 656c0ae2336d1f7b66dde6a6cae052c8
+2025-11-06 10:31:37 WARN  WebSocketHandler:142 - onError
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:401) ~[?:?]
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:434) ~[?:?]
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:256) ~[netty-buffer-4.1.91.Final.jar:4.1.91.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132) ~[netty-buffer-4.1.91.Final.jar:4.1.91.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357) ~[netty-transport-4.1.91.Final.jar:4.1.91.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) ~[netty-transport-4.1.91.Final.jar:4.1.91.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788) ~[netty-transport-4.1.91.Final.jar:4.1.91.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724) ~[netty-transport-4.1.91.Final.jar:4.1.91.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650) ~[netty-transport-4.1.91.Final.jar:4.1.91.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562) ~[netty-transport-4.1.91.Final.jar:4.1.91.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[netty-common-4.1.91.Final.jar:4.1.91.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.91.Final.jar:4.1.91.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-common-4.1.91.Final.jar:4.1.91.Final]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+2025-11-06 10:31:38 INFO  TC002_LoginPage:133 - Browser closed successfully.
+2025-11-06 10:34:01 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\Balaji\Documents\Bala_selenium_project\testng.xml
+
+2025-11-06 10:34:01 INFO  TC002_LoginPage:45 - Execution started on OS: Windows 10 | Browser: chrome
+2025-11-06 10:34:02 INFO  WebDriverManager:1220 - Using chromedriver 142.0.7444.59 (resolved driver for Chrome 142)
+2025-11-06 10:34:02 INFO  WebDriverManager:1282 - Exporting webdriver.chrome.driver as C:\Users\Balaji\.cache\selenium\chromedriver\win64\142.0.7444.59\chromedriver.exe
+2025-11-06 10:34:04 INFO  TC002_LoginPage:62 - Chrome browser launched in headless mode.
+2025-11-06 10:34:09 INFO  TC002_LoginPage:81 - Navigated to URL: https://tutorialsninja.com/demo/
+2025-11-06 10:34:09 INFO  TC002_LoginPage:15 - Test case started
+2025-11-06 10:34:19 ERROR TC002_LoginPage:31 - Test failed due to exception: element not interactable
+  (Session info: chrome=142.0.7444.61)
+Build info: version: '4.9.1', revision: 'eb2032df7f'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [443e4d6987892753aa605fc31d5264ba, clickElement {id=f.063A7EB2235BBC4726F4551688E52B75.d.7B2E7C6C005C88D16099977C18C65D9A.e.37}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.61, chrome: {chromedriverVersion: 142.0.7444.59 (4b8153ab58d3..., userDataDir: C:\Users\Balaji\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49423}, goog:processID: 13088, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49423/devtoo..., se:cdpVersion: 142.0.7444.61, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (443e4d6987892753aa605fc31d5264ba)] -> xpath: //span[contains(text(),'My Account')]]
+Session ID: 443e4d6987892753aa605fc31d5264ba
+2025-11-06 10:34:20 INFO  TC002_LoginPage:127 - Browser closed successfully.
+2025-11-06 10:34:59 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\Balaji\Documents\Bala_selenium_project\testng.xml
+
+2025-11-06 10:34:59 INFO  TC002_LoginPage:43 - Execution started on OS: Windows 10 | Browser: chrome
+2025-11-06 10:35:00 INFO  WebDriverManager:1220 - Using chromedriver 142.0.7444.59 (resolved driver for Chrome 142)
+2025-11-06 10:35:00 INFO  WebDriverManager:1282 - Exporting webdriver.chrome.driver as C:\Users\Balaji\.cache\selenium\chromedriver\win64\142.0.7444.59\chromedriver.exe
+2025-11-06 10:35:02 INFO  TC002_LoginPage:50 - Chrome browser launched
+2025-11-06 10:35:09 INFO  TC002_LoginPage:76 - Navigated to URL: https://tutorialsninja.com/demo/
+2025-11-06 10:35:09 INFO  TC002_LoginPage:15 - Test case started
+2025-11-06 10:35:10 INFO  TC002_LoginPage:21 - Login page opened successfully
+2025-11-06 10:35:12 INFO  TC002_LoginPage:28 - Test case passed
+2025-11-06 10:35:12 WARN  WebSocketHandler:142 - onError
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:401) ~[?:?]
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:434) ~[?:?]
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:256) ~[netty-buffer-4.1.91.Final.jar:4.1.91.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132) ~[netty-buffer-4.1.91.Final.jar:4.1.91.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357) ~[netty-transport-4.1.91.Final.jar:4.1.91.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) ~[netty-transport-4.1.91.Final.jar:4.1.91.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788) ~[netty-transport-4.1.91.Final.jar:4.1.91.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724) ~[netty-transport-4.1.91.Final.jar:4.1.91.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650) ~[netty-transport-4.1.91.Final.jar:4.1.91.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562) ~[netty-transport-4.1.91.Final.jar:4.1.91.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[netty-common-4.1.91.Final.jar:4.1.91.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.91.Final.jar:4.1.91.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-common-4.1.91.Final.jar:4.1.91.Final]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+2025-11-06 10:35:12 INFO  TC002_LoginPage:115 - Browser closed successfully.
+2025-11-06 10:36:01 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\Balaji\Documents\Bala_selenium_project\testng.xml
+
+2025-11-06 10:36:02 INFO  TC002_LoginPage:43 - Execution started on OS: Windows 10 | Browser: chrome
+2025-11-06 10:36:02 INFO  WebDriverManager:1220 - Using chromedriver 142.0.7444.59 (resolved driver for Chrome 142)
+2025-11-06 10:36:03 INFO  WebDriverManager:1282 - Exporting webdriver.chrome.driver as C:\Users\Balaji\.cache\selenium\chromedriver\win64\142.0.7444.59\chromedriver.exe
+2025-11-06 10:36:05 INFO  TC002_LoginPage:50 - Chrome browser launched
+2025-11-06 10:36:12 INFO  TC002_LoginPage:76 - Navigated to URL: https://tutorialsninja.com/demo/
+2025-11-06 10:36:12 INFO  TC002_LoginPage:15 - Test case started
+2025-11-06 10:36:13 INFO  TC002_LoginPage:21 - Login page opened successfully
+2025-11-06 10:36:23 ERROR TC002_LoginPage:31 - Test failed due to exception: no such element: Unable to locate element: {"method":"css selector","selector":"#input\-"}
+  (Session info: chrome=142.0.7444.61)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.9.1', revision: 'eb2032df7f'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7a14535e3f0cbd99637eaad78a8c588e, findElement {using=id, value=input-}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.61, chrome: {chromedriverVersion: 142.0.7444.59 (4b8153ab58d3..., userDataDir: C:\Users\Balaji\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49480}, goog:processID: 9800, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49480/devtoo..., se:cdpVersion: 142.0.7444.61, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7a14535e3f0cbd99637eaad78a8c588e
+2025-11-06 10:36:23 INFO  TC002_LoginPage:115 - Browser closed successfully.
+2025-11-06 10:38:15 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\Balaji\Documents\Bala_selenium_project\testng.xml
+
+2025-11-06 10:38:15 INFO  TC002_LoginPage:43 - Execution started on OS: Windows 10 | Browser: chrome
+2025-11-06 10:38:16 INFO  WebDriverManager:1220 - Using chromedriver 142.0.7444.59 (resolved driver for Chrome 142)
+2025-11-06 10:38:16 INFO  WebDriverManager:1282 - Exporting webdriver.chrome.driver as C:\Users\Balaji\.cache\selenium\chromedriver\win64\142.0.7444.59\chromedriver.exe
+2025-11-06 10:38:18 INFO  TC002_LoginPage:50 - Chrome browser launched
+2025-11-06 10:38:26 INFO  TC002_LoginPage:76 - Navigated to URL: https://tutorialsninja.com/demo/
+2025-11-06 10:38:26 INFO  TC002_LoginPage:15 - Test case started
+2025-11-06 10:38:27 INFO  TC002_LoginPage:21 - Login page opened successfully
+2025-11-06 10:38:37 ERROR TC002_LoginPage:31 - Test failed due to exception: no such element: Unable to locate element: {"method":"css selector","selector":"#input\-"}
+  (Session info: chrome=142.0.7444.61)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.9.1', revision: 'eb2032df7f'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [919b00fa5ddb23fbc33dfe475d6cd914, findElement {using=id, value=input-}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.61, chrome: {chromedriverVersion: 142.0.7444.59 (4b8153ab58d3..., userDataDir: C:\Users\Balaji\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49517}, goog:processID: 8056, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49517/devtoo..., se:cdpVersion: 142.0.7444.61, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 919b00fa5ddb23fbc33dfe475d6cd914
+2025-11-06 10:38:38 INFO  TC002_LoginPage:130 - Browser closed successfully.
+2025-11-06 10:40:22 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\Balaji\Documents\Bala_selenium_project\testng.xml
+
+2025-11-06 10:40:23 INFO  TC002_LoginPage:43 - Execution started on OS: Windows 10 | Browser: chrome
+2025-11-06 10:40:23 INFO  WebDriverManager:1220 - Using chromedriver 142.0.7444.59 (resolved driver for Chrome 142)
+2025-11-06 10:40:23 INFO  WebDriverManager:1282 - Exporting webdriver.chrome.driver as C:\Users\Balaji\.cache\selenium\chromedriver\win64\142.0.7444.59\chromedriver.exe
+2025-11-06 10:40:26 INFO  TC002_LoginPage:50 - Chrome browser launched
+2025-11-06 10:40:32 INFO  TC002_LoginPage:76 - Navigated to URL: https://tutorialsninja.com/demo/
+2025-11-06 10:40:32 INFO  TC002_LoginPage:15 - Test case started
+2025-11-06 10:40:33 INFO  TC002_LoginPage:21 - Login page opened successfully
+2025-11-06 10:40:34 INFO  TC002_LoginPage:28 - Test case passed
+2025-11-06 10:40:35 INFO  TC002_LoginPage:115 - Browser closed successfully.
+2025-11-06 10:40:56 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\Balaji\Documents\Bala_selenium_project\master.xml
+
+2025-11-06 10:40:56 INFO  TC001_AccountRegistrationTest:43 - Execution started on OS: Windows 10 | Browser: chrome
+2025-11-06 10:40:57 INFO  WebDriverManager:1220 - Using chromedriver 142.0.7444.59 (resolved driver for Chrome 142)
+2025-11-06 10:40:57 INFO  WebDriverManager:1282 - Exporting webdriver.chrome.driver as C:\Users\Balaji\.cache\selenium\chromedriver\win64\142.0.7444.59\chromedriver.exe
+2025-11-06 10:40:59 INFO  TC001_AccountRegistrationTest:50 - Chrome browser launched
+2025-11-06 10:41:04 INFO  TC001_AccountRegistrationTest:76 - Navigated to URL: https://tutorialsninja.com/demo/
+2025-11-06 10:41:04 INFO  TC001_AccountRegistrationTest:27 - started the homepage
+2025-11-06 10:41:06 INFO  TC001_AccountRegistrationTest:33 - registration is also stratd
+2025-11-06 10:41:08 INFO  TC001_AccountRegistrationTest:115 - Browser closed successfully.
+2025-11-06 10:41:08 INFO  TC002_LoginPage:43 - Execution started on OS: Windows 10 | Browser: chrome
+2025-11-06 10:41:08 INFO  WebDriverManager:1220 - Using chromedriver 142.0.7444.59 (resolved driver for Chrome 142)
+2025-11-06 10:41:08 INFO  WebDriverManager:1282 - Exporting webdriver.chrome.driver as C:\Users\Balaji\.cache\selenium\chromedriver\win64\142.0.7444.59\chromedriver.exe
+2025-11-06 10:41:10 INFO  TC002_LoginPage:50 - Chrome browser launched
+2025-11-06 10:41:16 INFO  TC002_LoginPage:76 - Navigated to URL: https://tutorialsninja.com/demo/
+2025-11-06 10:41:16 INFO  TC002_LoginPage:15 - Test case started
+2025-11-06 10:41:17 INFO  TC002_LoginPage:21 - Login page opened successfully
+2025-11-06 10:41:19 INFO  TC002_LoginPage:28 - Test case passed
+2025-11-06 10:41:19 INFO  TC002_LoginPage:115 - Browser closed successfully.
+2025-11-06 10:41:20 INFO  TC001_AccountRegistrationTest:43 - Execution started on OS: Windows 10 | Browser: edge
+2025-11-06 10:41:36 INFO  TC001_AccountRegistrationTest:62 - Edge browser launched
+2025-11-06 10:41:49 INFO  TC001_AccountRegistrationTest:76 - Navigated to URL: https://tutorialsninja.com/demo/
+2025-11-06 10:41:49 INFO  TC001_AccountRegistrationTest:27 - started the homepage
+2025-11-06 10:41:52 INFO  TC001_AccountRegistrationTest:33 - registration is also stratd
+2025-11-06 10:41:55 INFO  TC001_AccountRegistrationTest:115 - Browser closed successfully.
+2025-11-06 10:41:55 INFO  TC002_LoginPage:43 - Execution started on OS: Windows 10 | Browser: edge
+2025-11-06 10:41:58 INFO  TC002_LoginPage:62 - Edge browser launched
+2025-11-06 10:42:07 INFO  TC002_LoginPage:76 - Navigated to URL: https://tutorialsninja.com/demo/
+2025-11-06 10:42:07 INFO  TC002_LoginPage:15 - Test case started
+2025-11-06 10:42:07 INFO  TC002_LoginPage:21 - Login page opened successfully
+2025-11-06 10:42:09 INFO  TC002_LoginPage:28 - Test case passed
+2025-11-06 10:42:09 INFO  TC002_LoginPage:115 - Browser closed successfully.
